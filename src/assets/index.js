@@ -25,10 +25,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import mvpstudio from "./company/mvp-studio.jpg"
+import aimy from "./company/aimy.jpg"
+import creditworks from "./company/creditworks.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import dotnetLogo from "./dotnet.png"
+import jsLogo from "./javascript.png"
+import tiktokLogo from "./tiktok.png"
 
 export {
   logo,
@@ -59,4 +66,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  mvpstudio,
+  aimy,
+  creditworks,
+  dotnetLogo,
+  jsLogo,
+  tiktokLogo
 };

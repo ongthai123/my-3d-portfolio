@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    aimy,
+    creditworks,
+    mvpstudio,
+    jsLogo,
+    dotnetLogo,
+    tiktokLogo
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +48,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Front-End Developer",
+      icon: jsLogo,
     },
     {
-      title: "React Native Developer",
+      title: "Back-End Developer",
+      icon: dotnetLogo,
+    },
+    {
+      title: "Full-Stack Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
       title: "Content Creator",
-      icon: creator,
+      icon: tiktokLogo,
     },
   ];
   
@@ -116,57 +122,58 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer Intern",
+      company_name: "MVP Studio",
+      icon: mvpstudio,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2018 - April 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implementing the ReactJS framework to develop the single-page applications",
+        "Maintain and test REST APIs",
+        "Utilizing version control for code check-ins",
+        "Integrating Agile methodologies for varying requirements and continuous delivery of the working software",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Developer",
+      company_name: "Aimy Plus",
+      icon: aimy,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2019 - November 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Building modern applications with ReactJS, .NET Core, and MS SQL",
+        "Involving in the development of RESTful APIs",
+        "Scoping project requirements using Agile & Scrum principles that helped prioritize developing activities",
+        "Reduced by 50% of the time-consuming in monitoring emails and SMS by delivering an automated tracking system",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Software Engineer",
+      company_name: "CreditWorks",
+      icon: creditworks,
+      iconBg: "#383E56",
+      date: "November 2020 - Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Communicate with stakeholders and third-party organizations to design and develop products",
+        "Design UX/UI and re-build company legacy system from back-end to front-end using Blazor and .NET Core based on the requirements of stakeholders",
+        "Design new database schema and develop back-end services that improve the employees' performance and reduce the manual work by 50%",
+        "Design and collaborate with team leader in restructuring SQL database schema",
+        "Implement Agile methodology with JIRA and Slack for managing progress and quality of the projects"
       ],
     },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
