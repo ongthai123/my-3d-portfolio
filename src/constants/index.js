@@ -28,7 +28,8 @@ import {
     mvpstudio,
     jsLogo,
     dotnetLogo,
-    tiktokLogo
+    tiktokLogo,
+    fullstackLogo
   } from "../assets";
   
   export const navLinks = [
@@ -57,7 +58,7 @@ import {
     },
     {
       title: "Full-Stack Developer",
-      icon: mobile,
+      icon: fullstackLogo,
     },
     {
       title: "Content Creator",

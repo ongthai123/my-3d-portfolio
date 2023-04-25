@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 import dotnetLogo from "./dotnet.png"
 import jsLogo from "./javascript.png"
 import tiktokLogo from "./tiktok.png"
+import fullstackLogo from "./fullstack.png"
 
 export {
   logo,
@@ -71,5 +72,6 @@ export {
   creditworks,
   dotnetLogo,
   jsLogo,
-  tiktokLogo
+  tiktokLogo,
+  fullstackLogo
 };
