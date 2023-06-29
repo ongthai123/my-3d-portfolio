@@ -198,15 +198,15 @@ import {
         "Our goal with this project is to bridge this gap by creating an intuitive and user-friendly e-commerce platform that offers a wide range of healthy foods and groceries, empowering users to make informed choices for their well-being.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "sanity",
+          name: "Sanity",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
       ],
@@ -219,7 +219,7 @@ import {
         "A web application that enables users to create images based on your description with the assistance of OpenAI.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
@@ -234,27 +234,27 @@ import {
       image: "https://user-images.githubusercontent.com/28833020/227191455-c3619939-ba66-47da-ab0c-f7dd3acb907c.PNG",
       source_code_link: "https://github.com/ongthai123/ai-mern-image-generation",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "3D Portfolio",
+      description:
+        "The most impressive websites in the world use 3D graphics and animations to bring their content to life.",
+      tags: [
+        {
+          name: "React Three Fiber",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Framer Motion",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://i.ibb.co/W24mW4q/6.png",
+      source_code_link: "https://github.com/ongthai123/my-3d-portfolio",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
