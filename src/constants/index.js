@@ -161,61 +161,48 @@ import {
         "Design and collaborate with team leader in restructuring SQL database schema",
         "Implement Agile methodology with JIRA and Slack for managing progress and quality of the projects"
       ],
-    },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    }
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Jerry is a fantastic developer who enjoys discussing ideal ways to overcome blockers and is always considerate of everyone's suggestions.",
+      name: "Balraj",
+      designation: "Software Engineer",
+      company: "Jarden",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a web developer who truly cares about their clients' success like Jerry does.",
+      name: "Ronnie",
+      designation: "Director",
+      company: "CreditWorks",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "After Jerry reworked our legacy CRM system, our traffic increased by 50%. We can't thank him enough!",
+      name: "Evgenia",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "CreditWorks",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Groceries E-commerce",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Our goal with this project is to bridge this gap by creating an intuitive and user-friendly e-commerce platform that offers a wide range of healthy foods and groceries, empowering users to make informed choices for their well-being.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "sanity",
           color: "green-text-gradient",
         },
         {
@@ -223,51 +210,51 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: "https://camo.githubusercontent.com/7408de62019dcb646953ee54f69c76fa0080c12700f83ab056555ffd87f31c44/68747470733a2f2f692e6962622e636f2f64446e6b5862632f322e706e67",
+      source_code_link: "https://github.com/ongthai123/ecommerce_sanity_stripe",
     },
     {
-      name: "Job IT",
+      name: "OpenAI Image Generation",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web application that enables users to create images based on your description with the assistance of OpenAI.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: ".NET",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: "https://user-images.githubusercontent.com/28833020/227191455-c3619939-ba66-47da-ab0c-f7dd3acb907c.PNG",
+      source_code_link: "https://github.com/ongthai123/ai-mern-image-generation",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
